@@ -1,0 +1,45 @@
+{
+    "name": "bee-less",
+    "version": "0.1.0",
+	"description": "bee less plugin",
+    "keywords": ["bee plugin","less"],
+    "main": "lib/index.js",
+    "bin": {
+    },
+    "engines": {
+        "node" : ">=0.8.0"
+    },
+	"author": "colorhook <colorhook@gmail.com>",
+	"maintainers": [{
+      "name": "colorhook",
+      "email": "colorhook@gmail.com",
+      "url": "http://github.com/colorhook"
+    }],
+	"bugs": {
+        "email": "colorhook@gmail.com",
+        "url": "http://github.com/colorhook/att/issues"
+    },
+
+    "dependencies": {
+    	"less": "~1.7.0"
+    },
+    "devDependencies":{
+        "mocha": "~1.7.4",
+        "should": "~1.2.2",
+        "bee": ""
+    },
+    "scripts":{
+        "test": "mocha --require should test --timeout 10000 --globals hasCert --ignore-leaks"
+    },
+    "homepage": "https://github.com/colorhook/bee-less",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/colorhook/bee-less.git"
+    },
+	"licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/colorhook/bee-less/blob/master/LICENSE"
+        }
+    ]
+}
