@@ -1,10 +1,9 @@
 bee-less
 ========
+灏唋ess鏂囦欢缂栬瘧鎴恈ss鏂囦欢
 
-将less文件编译成css文件
+```xml
+<less src='reset.less' dest='reset.css'/>
 
-### 用法
-
-    <less src='reset.less' dest='reset.css'/>
-
-    <less file='reset.less' destfile='reset.css'/>
+<less file='reset.less' destfile='reset.css'/>
+```
